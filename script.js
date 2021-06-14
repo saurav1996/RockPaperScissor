@@ -23,7 +23,7 @@ function game(){
     const playerSelection = prompt("Enter rock paper or scissor:").toLowerCase();
     const computerSelection = computerPlay();
         function playRound(playerSelection,computerSelection){
-            if(playerSelection === 'rock' && computerSelection === 'Paper'){
+            if(playerSelection === 'rock' && computerSelection === 'paper'){
                 console.log(i,"You lose! Paper beats rock.");
                 computerScore++;
             }
@@ -59,7 +59,7 @@ function game(){
             
             }
             playRound(playerSelection,computerSelection);
-    console.log(playerSelection,computerSelection);
+            console.log(playerSelection,computerSelection);
     } 
     
     if(playerScore>computerScore){
