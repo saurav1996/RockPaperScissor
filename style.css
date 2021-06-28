@@ -1,0 +1,27 @@
+body {
+    background: gray;
+}
+h1 {
+    margin-left: 45%;
+}
+img {
+    height: 200px;
+    width: 200px;
+    
+
+}
+button {
+    margin-left: 20px;
+}
+.buttons {
+    padding-top: 10%;
+}
+.machine-side {
+   margin-left: 1024px;
+   margin-bottom: 500px;
+    
+}
+/* .computer-selection{
+    padding-left: 50%;
+    padding-bottom: 150px;
+} */
