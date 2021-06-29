@@ -21,6 +21,10 @@ button {
    margin-bottom: 500px;
     
 }
+.separator{
+    display: flex;
+    flex-direction: column;
+}
 /* .computer-selection{
     padding-left: 50%;
     padding-bottom: 150px;

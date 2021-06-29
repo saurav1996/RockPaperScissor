@@ -28,9 +28,9 @@ function game(){
     const computerSelection = computerPlay();
     const computerSelectionDisplay = document.querySelector('.machine-side');
     const resultDisplay = document.querySelector('.result-display');
-    const winResult =  '<h1 style="color:green;padding:0">Congrats you win</h1>';
-    const loseResult =  '<h1 style="color:red;padding:0">Too bad you lose.</h1>';
-    const drawResult =  '<h1 style="color:black;padding:0">Its a draw.</h1>';
+    const winResult =  '<h1 style="color:green;">Congrats you win</h1>';
+    const loseResult =  '<h1 style="color:red;">Too bad you lose.</h1>';
+    const drawResult =  '<h1 style="color:black;">Its a draw.</h1>';
     function playRound(playerSelection,computerSelection){
         if(playerSelection === 'rock' && computerSelection === 'paper'){
             computerSelectionDisplay.innerHTML = `<img src= ${paperUrl} class="computer-selection">`;
